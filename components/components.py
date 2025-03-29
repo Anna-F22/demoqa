@@ -15,6 +15,6 @@ class WebElement:
     def exist(self):
         try:
             self.find_element()
-        except NoSuchElementException
+        except NoSuchElementException:
             return False
         return True
