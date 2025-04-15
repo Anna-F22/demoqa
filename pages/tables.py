@@ -49,5 +49,23 @@ class Tables(BasePage):
         self.nextpage_salary = WebElement(driver, 'div.rt-tbody > div:nth-child(1) > div > div:nth-child(5)')
         self.nextpage_depart = WebElement(driver, 'div.rt-tbody > div:nth-child(1) > div > div:nth-child(6)')
 
+        self.sort_first = WebElement(driver, 'div:nth-child(1) > div.rt-resizable-header-content')
+        self.sort_last = WebElement(driver, 'div:nth-child(2) > div.rt-resizable-header-content')
+        self.sort_age = WebElement(driver, 'div:nth-child(3) > div.rt-resizable-header-content')
+        self.sort_email = WebElement(driver, 'div:nth-child(4) > div.rt-resizable-header-content')
+        self.sort_salary = WebElement(driver, 'div:nth-child(5) > div.rt-resizable-header-content')
+        self.sort_depart = WebElement(driver, 'div:nth-child(6) > div.rt-resizable-header-content')
+
+        self.str_alden_two = WebElement(driver, 'div.rt-tbody > div:nth-child(2) > div')
+        self.str_alden_f = WebElement(driver, 'div.rt-tbody > div:nth-child(1) > div')
+        self.str_alden_three = WebElement(driver, 'div.rt-tbody > div:nth-child(3) > div')
+
+        self.str_cierra_two = WebElement(driver, 'div.rt-tbody > div:nth-child(2) > div')
+        self.str_cierra_three = WebElement(driver, 'div.rt-tbody > div:nth-child(3) > div')
+
+
+
+
+
 
 
